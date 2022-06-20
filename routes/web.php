@@ -19,15 +19,10 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
-Auth::routes();
+Route::get('/viewprice', [App\Http\Controllers\ChartsController::class, 'index'])->name('viewprice');
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
-Route::get('/profile', [App\Http\Controllers\Admin\ProfileController::class, 'index'])->name('home');
-
-Route::get('/profile', [App\Http\Controllers\Admin\ProfileController::class, 'index'])->name('home');
-
 Route::get('/admin', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::resource('/admin/prices', App\Http\Controllers\Admin\PricesController::class, ['as'=>'admin']);
+
 

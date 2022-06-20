@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Price;
+use App\Models\User;
+use DB; 
 
 class HomeController extends Controller
 {
@@ -22,7 +25,9 @@ class HomeController extends Controller
      * @return \Illuminate\Contracts\Support\Renderable
      */
     public function index()
-    {
-        return view('home');
+    {   
+        $prices = DB::select('select * from prices');
+        return view('admin.prices.index',['prices'=>$prices]);
+        
     }
 }

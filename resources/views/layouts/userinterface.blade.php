@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>User | Dashboard</title>
+  <title>User FishFood | Dashboard</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -38,7 +38,7 @@
         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="viewprice" class="nav-link">Home</a>
+        <a href="#" class="nav-link">Home</a>
       </li>
       
     </ul>
@@ -98,37 +98,23 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
                <li class="nav-item">
-            <a href="viewprice" class="nav-link">
+            <a href="#" class="nav-link">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
-                Daily Price
+                Home
               </p>
             </a>
           </li>
 
+        
           <li class="nav-item">
-            <a href="travelfee" class="nav-link">
-              <i class="nav-icon fas fa-th"></i>
-              <p>
-                Travel Fee
-              </p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="history" class="nav-link">
+            <a href="#" class="nav-link">
               <i class="nav-icon fas fa-copy"></i>
               <p>
-                History
+                Account
               </p>
             </a>
-          <li class="nav-item">
-            <a href="companydetail" class="nav-link">
-              <i class="nav-icon fas fa-chart-pie"></i>
-              <p>
-                Company Detail
-              </p>
-            </a>
-          </li>
+          
         </ul>
       </nav>
       <!-- /.sidebar-menu -->
@@ -142,7 +128,7 @@
   </div>
   <!-- /.content-wrapper -->
   <footer class="main-footer">
-    <strong>Copyright &copy; 2021 <a>Macklin</a>.</strong>
+    <strong>Copyright &copy; 2021 <a>FishFood</a>.</strong>
     All rights reserved.
     <div class="float-right d-none d-sm-inline-block">
       <b>Version</b> 1
